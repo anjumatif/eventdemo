@@ -28,3 +28,8 @@ thirdButton.addEventListener("click", logEvent);
 function logEvent(event) {
   console.log(event);
 }
+
+const fourthbutton = document.getElementById("button4");
+fourthbutton.addEventListener("mouseout", function () {
+  console.log("This is a mouseout");
+});
